@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   required_providers {
     random = {
       source = "hashicorp/random"
@@ -12,4 +12,4 @@ resource "random_password" "password" {
   special          = true
   override_special = "!#$%&*()-_=+[]{}<>:?"
   count = 2
-}
+}*/
