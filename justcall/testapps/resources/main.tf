@@ -9,7 +9,7 @@ terraform {
 provider "random" {}
 
 resource "random_password" "password" {
-  length           = 16
+  length           = var.length
   special          = true
   override_special = "!#$%&*()-_=+[]{}<>:?"
   count = 2
